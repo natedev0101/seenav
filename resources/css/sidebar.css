@@ -1,0 +1,230 @@
+.sidebar {
+  padding-bottom: 170px;
+  z-index: 105;
+  position: fixed;
+  background-color: rgba(54, 54, 54, 0.5);
+  top: 0px;
+  left: 0px;
+  bottom: 0px;
+  width: 200px;
+  overflow-x: hidden;
+  overflow-y: auto;
+  white-space: nowrap;
+  transition: width 0.5s;
+}
+.sidebar-container {
+  background-color: rgba(54, 54, 54, 0.5);
+}
+.sidebarheader {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 30px 0px 30px 0px;
+}
+.nav-bar {
+  padding: 2px;
+  top: 10px;
+  left: 160px;
+  position: absolute;
+  border-radius: 5px;
+  opacity: 20%;
+  width: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: left 0.3s;
+  cursor: pointer;
+}
+.nav-bar:hover {
+  background-color: #525252;
+  opacity: 100%;
+}
+.nav-arrow {
+  top: 10px;
+  filter: invert(100%);
+  height: 30px;
+  object-fit: cover;
+  margin: 0px 15px;
+  transition: 0.3s;
+}
+h1 {
+  color: white;
+}
+.tek-logo {
+  border-radius: 50%;
+  object-fit: cover;
+  width: 80px;
+  filter: drop-shadow(0px 0px 2px rgba(0, 0, 0, 0.8));
+}
+.tek-terrorelharitas-felirat {
+  color: #d8a000;
+  font-weight: 800;
+  font-size: 45px;
+  text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.3);
+}
+.sidebar ul li {
+  list-style: none;
+}
+.sidebar-row {
+  color: white;
+  width: 100%;
+  height: 15px;
+  margin: 0px;
+  font-size: 18px;
+  display: flex;
+  padding: 15px 0px;
+  align-items: center;
+  border-top-right-radius: 0;
+  border-bottom-right-radius: 0;
+  border-bottom-left-radius: 15px;
+  border-top-left-radius: 15px;
+  transition: background-color 0.3s;
+}
+.sidebar-row:hover {
+  background-image: url("../images/bg-pattern.png");
+  cursor: pointer;
+}
+.sidebar-row:hover .sidebar-icon {
+  margin: 0 12.5px;
+  height: 30px;
+}
+.sidebar-icon {
+  filter: invert(100%);
+  height: 25px;
+  object-fit: cover;
+  margin: 0px 15px;
+  transition: height, 0.2s;
+}
+.sidebar-text {
+  margin-right: 15px;
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  align-items: center;
+}
+.dropgown-arrow {
+  text-align: right;
+}
+.login-panel {
+  position: absolute;
+  bottom: 30px;
+  color: black;
+  bottom: 30px;
+}
+.login-div {
+  width: 200px;
+  justify-content: center;
+}
+.login-style {
+  width: 70%;
+  font-weight: 800;
+  border-radius: 5px;
+  border: none;
+  margin: 3px 0px;
+  padding: 5px 10px;
+  font-family: "rubik";
+  height: 30px;
+  box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.6);
+}
+.login-text {
+  background-color: #d8a000;
+  width: 180px;
+  border: none;
+  border-radius: 5px;
+  margin: 3px;
+  height: 30px;
+  font-family: "rubik";
+  font-weight: 700;
+  box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.6);
+  cursor: pointer;
+}
+.login-text:hover {
+  box-shadow: inset 1px 1px 5px rgba(0, 0, 0, 0.9);
+}
+.login-text:active {
+  background-color: #856100;
+}
+.logout-text {
+  width: 180px;
+  color: #d8a000;
+  background-color: #363636;
+  border: 2px solid #d8a000;
+  border-radius: 5px;
+  margin: 3px;
+  height: 30px;
+  font-family: "rubik";
+  font-weight: 700;
+  box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.6);
+  cursor: pointer;
+}
+.logout-text:hover {
+  box-shadow: inset 1px 1px 5px rgba(0, 0, 0, 0.9);
+}
+.logout-text:active {
+  background-color: #856100;
+}
+.copyrightdiv {
+  width: 200px;
+  color: white;
+  font-size: 10px;
+  position: absolute;
+  display: flex;
+  bottom: 5px;
+  left: 0px;
+  right: 0px;
+  justify-content: center;
+  align-items: center;
+}
+.miniprofile {
+  border-radius: 5px;
+  vertical-align: center;
+  display: flex;
+  align-items: center;
+  background-color: #525252;
+  margin: 10px 5px;
+}
+.miniprofile:hover {
+  background-color: #6b6b6b;
+}
+.profilinfo {
+  display: flex;
+  flex-direction: column;
+}
+.sidebaralnev {
+  font-size: 22px;
+  font-weight: 400;
+}
+.sidebarrendfokozat {
+  font-weight: 500;
+  color: lightgray;
+  font-size: 12px;
+}
+.button-panel {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.miniavatar {
+  height: 55px;
+  width: 55px;
+  object-fit: cover;
+  border-radius: 5px;
+  margin-left: 10px;
+  filter: drop-shadow(1px 1px 2px rgba(0, 0, 0, 0.8));
+}
+.profilinfo {
+  text-shadow: 1px 1px 4px rgba(0, 0, 0, 0.8);
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 15px 0px;
+  flex: 1;
+}
+.sidebar-time {
+  margin-bottom: 10px;
+  color: lightgray;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}

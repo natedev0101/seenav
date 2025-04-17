@@ -1,0 +1,1 @@
+<img src="{{ asset('/images/NAV.png')}} " alt="NAV logo" class="auth-logo">
